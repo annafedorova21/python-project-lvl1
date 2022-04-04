@@ -1,8 +1,18 @@
-package = []
+[[package]]
+name = "prompt"
+version = "0.4.1"
+description = "Library for prompting input on the command line."
+category = "main"
+optional = false
+python-versions = ">=3.3"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.10"
-content-hash = "2deb6c52d390f12cdb0ba2dd6d298ac7f046d6652f95053943adc6e8cb7ffad0"
+python-versions = "^3.9"
+content-hash = "1f2991b71a0c66050fdc9ea80d382a0bec5b1d84ab82d9fe6d51f823a4c50049"
 
 [metadata.files]
+prompt = [
+    {file = "prompt-0.4.1-py3-none-any.whl", hash = "sha256:98527de8dc3f0aa29669a39fbffeaf578ba6654dc836f737b6a5c6f9279002b7"},
+    {file = "prompt-0.4.1.tar.gz", hash = "sha256:8a7694b88f8c65188a983315e72582bf42fcc251b97042be1d2a2ad1aa0ebe0e"},
+]
