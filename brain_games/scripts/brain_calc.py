@@ -1,22 +1,21 @@
 #!/usr/bin/env python
-
-from random import randint
+import operator
+from random import randint, choice
 
 from common.py import welcome_user, task_description, ask_question, get_answer, print_correct, print_error, print_congratulations
 
-def even_or_not(name):
+def calc(name):
     counter = 0
     while counter < 3:
-        random_number = randint(1, 100)
+        random_number1 = randint(1, 100)
+        random_number2 = randint(1, 100)
+        operators = [('+', operator.add), ('-', operator.sub), ('*', operator.mul)]
+        op, ch = choice(operators)
+        random_number = (f"{random_number1} {op} {random_number2}")
         ask_question(random_number)
-        user_answer = get_answer()
+        user_answer = int(get_answer())
 
-        global correct_answer 
-
-        if random_number % 2 == 0:
-            correct_answer = "yes"
-        else:
-            correct_answer = "no"
+        correct_answer = ch(random_number1, random_number2)
             
         if user_answer != correct_answer:
             print_error(name, user_answer, correct_answer)
@@ -30,8 +29,8 @@ def even_or_not(name):
         
 def main():
     name = welcome_user()
-    task_description("Answer 'yes' if the number is even, otherwise answer 'no'.")
-    even_or_not(name)
+    task_description("What is the result of the expression?")
+    calc(name)
 
 
 if __name__ == '__main__':
