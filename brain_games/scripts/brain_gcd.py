@@ -25,10 +25,10 @@ def greatest_common_divider(name):
             list = [random_number2, random_number1]
 
         while list[len(list) - 1] > 0:
-            x = list[n] % list[n+1]
+            x = list[n] % list[n + 1]
             list.append(x)
             n += 1
-        
+
         correct_answer = list[len(list) - 2]
 
         if user_answer != correct_answer:
@@ -37,10 +37,9 @@ def greatest_common_divider(name):
         else:
             print_correct()
             counter += 1
-        
-        if counter == 3:
-            print_congratulations(name)    
 
+        if counter == 3:
+            print_congratulations(name)
 
 
 def main():
