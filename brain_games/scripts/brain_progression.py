@@ -2,8 +2,8 @@
 from random import randint
 
 from brain_games.common import welcome_user, task_description
-from brain_games.common import ask_question
-from brain_games.common import get_answer, print_correct, print_error, print_congratulations
+from brain_games.common import ask_question, get_answer
+from brain_games.common import print_correct, print_error, print_congratulations
 
 
 def brain_progression(name):
