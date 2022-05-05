@@ -22,7 +22,7 @@ def brain_progression(name):
             progression.append(progression_number)
 
         correct_answer = progression[random_missing]
-        progression[random_missing] = '...'
+        progression[random_missing] = '..'
         progression = " ".join(map(str, progression))
         ask_question(progression)
 
