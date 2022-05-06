@@ -31,16 +31,16 @@ To install package your computer should support Python v.3.9
 ## ASCIINEMAS OF GAMES
 
 # brain-even
-https://asciinema.org/a/6cxUudvijKAuwSGlMEfAzI4Vj
+[![asciicast](https://asciinema.org/a/nFSzjsMttk6itPsB3u9R1IRld.svg)](https://asciinema.org/a/nFSzjsMttk6itPsB3u9R1IRld)
 
 # brain-calc
-https://asciinema.org/a/PZe6Hd3tB2wKACXiA4yJrmAR6
+[![asciicast](https://asciinema.org/a/PZe6Hd3tB2wKACXiA4yJrmAR6.svg)](https://asciinema.org/a/PZe6Hd3tB2wKACXiA4yJrmAR6)
 
 # brain-gcd
-https://asciinema.org/a/xw7CggrvK04MrArbSWHBAKUyl
+[![asciicast](https://asciinema.org/a/xw7CggrvK04MrArbSWHBAKUyl.svg)](https://asciinema.org/a/xw7CggrvK04MrArbSWHBAKUyl)
 
 # brain-prg
-https://asciinema.org/a/WSaCPlOIINVVy8KsWqxiWyJ8t
+[![asciicast](https://asciinema.org/a/WSaCPlOIINVVy8KsWqxiWyJ8t.svg)](https://asciinema.org/a/WSaCPlOIINVVy8KsWqxiWyJ8t)
 
 # brain-prime
-https://asciinema.org/a/rkVUcpocvMnrXLs6FcFBLQ3Rm
+[![asciicast](https://asciinema.org/a/rkVUcpocvMnrXLs6FcFBLQ3Rm.svg)](https://asciinema.org/a/rkVUcpocvMnrXLs6FcFBLQ3Rm)
