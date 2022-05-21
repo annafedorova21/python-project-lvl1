@@ -24,7 +24,7 @@ def brain_progression():
         random_number.append(progression_number)
 
     correct_answer = str(random_number[random_missing])
-    random_number[random_missing] = '...'
+    random_number[random_missing] = '..'
     random_number = " ".join(map(str, random_number))
 
     return random_number, correct_answer
