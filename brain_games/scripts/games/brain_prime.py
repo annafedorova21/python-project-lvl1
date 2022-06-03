@@ -21,7 +21,7 @@ def brain_prime():
 
     random_number = randint(1, 100)
 
-    if is_prime(random_number) is True:
+    if is_prime(random_number) == True:
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
