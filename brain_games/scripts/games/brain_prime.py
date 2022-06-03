@@ -17,7 +17,7 @@ def is_prime(number):
 
 def brain_prime():
 
-    random_number = randint(1, 100)
+    random_number = randint(2, 100)
 
     if is_prime(random_number) is True:
         correct_answer = 'yes'
