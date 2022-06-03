@@ -12,16 +12,14 @@ def is_prime(number):
     for i in range(2, number):
         if number % i == 0:
             return False
-            break
-        else:
-            return True
+    return True
 
 
 def brain_prime():
 
     random_number = randint(1, 100)
 
-    if is_prime(random_number) == True:
+    if is_prime(random_number) is True:
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
