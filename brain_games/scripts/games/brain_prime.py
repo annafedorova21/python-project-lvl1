@@ -1,7 +1,4 @@
-#!/usr/bin/env python
 from random import randint
-
-from brain_games.scripts.common import game_launcher
 
 
 def game_description():
@@ -25,11 +22,3 @@ def brain_prime():
         correct_answer = 'no'
 
     return random_number, correct_answer
-
-
-def main():
-    game_launcher(brain_prime, game_description)
-
-
-if __name__ == '__main__':
-    main()

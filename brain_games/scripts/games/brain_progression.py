@@ -1,7 +1,4 @@
-#!/usr/bin/env python
 from random import randint
-
-from brain_games.scripts.common import game_launcher
 
 
 def game_description():
@@ -28,11 +25,3 @@ def brain_progression():
     random_number = " ".join(map(str, random_number))
 
     return random_number, correct_answer
-
-
-def main():
-    game_launcher(brain_progression, game_description)
-
-
-if __name__ == '__main__':
-    main()
