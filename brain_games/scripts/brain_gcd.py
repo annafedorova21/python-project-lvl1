@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.scripts.games.common import game_launcher
-from brain_games.scripts.games.brain_gcd import greatest_common_divider
-from brain_games.scripts.games.brain_gcd import game_description
+from brain_games.common import game_launcher
+from brain_games.games import gcd
 
 
 def main():
-    game_launcher(greatest_common_divider, game_description)
+    game_launcher(gcd)
 
 
 if __name__ == '__main__':

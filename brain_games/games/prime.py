@@ -1,8 +1,8 @@
 from random import randint
 
 
-def game_description():
-    print("Answer 'yes' if the number is prime, otherwise answer 'no'.")
+game_description = "Answer 'yes' if the number is prime," \
+                   " otherwise answer 'no'."
 
 
 def is_prime(number):
@@ -12,7 +12,7 @@ def is_prime(number):
     return True
 
 
-def brain_prime():
+def game():
 
     random_number = randint(2, 100)
 

@@ -1,12 +1,11 @@
 from random import randint
 
 
-def game_description():
-    print("What number is missing"
-          " in the progression?")
+game_description = "What number is missing"\
+                   " in the progression?"
 
 
-def brain_progression():
+def game():
 
     random_number1 = randint(1, 100)
     random_number2 = randint(1, 20)

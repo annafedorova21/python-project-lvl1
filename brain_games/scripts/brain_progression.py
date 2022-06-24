@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.scripts.games.common import game_launcher
-from brain_games.scripts.games.brain_progression import brain_progression
-from brain_games.scripts.games.brain_progression import game_description
+from brain_games.common import game_launcher
+from brain_games.games import progression
 
 
 def main():
-    game_launcher(brain_progression, game_description)
+    game_launcher(progression)
 
 
 if __name__ == '__main__':

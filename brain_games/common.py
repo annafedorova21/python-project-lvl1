@@ -1,14 +1,14 @@
-def game_launcher(game_name, game_description):
+def game_launcher(module):
     print("Welcome to the Brain Games!")
     name = input('May I have your name?:')
     print('Hello, {}'.format(name))
-    game_description()
+    print(module.game_description)
 
-    counter = 0
-    while counter < 3:
-        random_number, correct_answer = game_name()
+    number_of_attemps = 3
+    for n in range(number_of_attemps):
+        random_number, correct_answer = module.game()
 
-        print(("Question: {}").format(random_number))
+        print("Question: {}".format(random_number))
         user_answer = input("Your answer: ")
 
         if user_answer != correct_answer:
@@ -18,6 +18,5 @@ def game_launcher(game_name, game_description):
             break
         else:
             print("Correct!")
-            counter += 1
-        if counter == 3:
+        if n == 2:
             print(f"Congratulations, {name}!")
